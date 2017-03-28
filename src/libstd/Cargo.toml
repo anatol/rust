@@ -17,7 +17,7 @@ panic_unwind = { path = "../libpanic_unwind", optional = true }
 panic_abort = { path = "../libpanic_abort" }
 collections = { path = "../libcollections" }
 core = { path = "../libcore" }
-libc = { path = "../rustc/libc_shim" }
+libc = { path = "../libc.rs" }
 rand = { path = "../librand" }
 compiler_builtins = { path = "../libcompiler_builtins" }
 std_unicode = { path = "../libstd_unicode" }

@@ -13,7 +13,7 @@ doc = false
 
 [dependencies]
 core = { path = "../libcore" }
-libc = { path = "../rustc/libc_shim" }
+libc = { path = "../libc.rs" }
 
 [build-dependencies]
 build_helper = { path = "../build_helper" }
